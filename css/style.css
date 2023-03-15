@@ -1,0 +1,43 @@
+body {
+    background-image: url(../img/websitebg.png );
+    background-size: contain;
+    background-size: auto;
+    background-position: center;
+    color: #000000;
+    font-size: 21px;
+    font-family: sans-serif;
+}
+/* this is my comment */
+h1 {
+    font-family: papyrus;
+}
+
+span {
+    color: blue;
+    font-size: 40px;
+}
+
+.centerDiv {
+  width: 95vw !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+/* CSS box model */
+
+/* margin
+   border
+   padding
+    */
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2vh;
+}
